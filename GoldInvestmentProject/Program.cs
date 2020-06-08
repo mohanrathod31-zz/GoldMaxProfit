@@ -52,7 +52,16 @@ class Solution
         int[] Goldprice = { 3100, 3500, 3200, 3300, 3700, 3600, 3400, 3500 };
 
         int n = Goldprice.Length;
+
+        //List<int> gramsOfGold = new List<int>();
+
+        //for (int i = 1; i < n; i++)
+        //{
+        //    gramsOfGold.Add(remainingAmount / Goldprice[i]);
+        //}
+
            
+
         Console.WriteLine(maxProfit(Goldprice, n, investedAmount));
     }
 }
