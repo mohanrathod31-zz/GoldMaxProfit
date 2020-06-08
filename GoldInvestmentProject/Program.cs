@@ -5,7 +5,7 @@ using System.Collections.Generic;
 class Solution
 {
 
-    static int maxProfit(int[] Goldprice, int n, int investmentAmount)
+    static int maxProfit(int[] Goldprice, int n)
     {
         // Initialise the profit 
         int profit = 0;
@@ -62,7 +62,7 @@ class Solution
 
            
 
-        Console.WriteLine(maxProfit(Goldprice, n, investedAmount));
+        Console.WriteLine(maxProfit(Goldprice, n));
     }
 }
 
